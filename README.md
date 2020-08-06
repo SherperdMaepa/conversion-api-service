@@ -1,14 +1,24 @@
 # conversion-api-service
 Endpoint service application capable of serving scale conversion
 
-/conversions/ktoc
+
+http://localhost:8080/conversion-api-service/conversions/ktoc/{value}
+
 The ktoc endpoint should produce an output amount in celsius when given an input amount in kelvin.
 
-/conversions/ctok
+
+http://localhost:8080/conversion-api-service/conversions/ctok/{value}
+
 The ctok endpoint should produce an output amount in kelvin when given an input amount in celsius.
 
-/conversions/mtok
+
+http://localhost:8080/conversion-api-service/conversions/mtok/{value}
+
 The mtok endpoint should produce, when given an input amount in miles, an output amount in kilometers.
 
-/conversions/ktom
+
+
+http://localhost:8080/conversion-api-service/conversions/ktom/{value}
+
 The ktom endpoint should produce, when given an input amount in kilometers, an output amount in miles.
+
